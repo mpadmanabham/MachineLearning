@@ -35,3 +35,4 @@ jobs:
           echo Add other actions to build,
           pwd
           ls /home/runner/work/MachineLearning/MachineLearning/Datasets/
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }}
