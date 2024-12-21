@@ -34,4 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           pwd
-          ls
+          ls /home/runner/work/MachineLearning/MachineLearning/Datasets/
